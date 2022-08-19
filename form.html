@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация о пользователе</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+           <legend>Общая информация</legend> 
+                <div>
+                    <p><label for="surname">Фамилия</label> 
+                    <input id="surname" type="text" name="surname" placeholder="Иванов"></p>
+                    <p> <label for="name">Имя</label>
+                    <input id="name" type="text" name="name" placeholder="Иван"></p>
+                    <p> <label for="second_name">Отчество</label> 
+                    <input id="second_name" type="text" name="second_name" placeholder="Иванович"></p>
+                    <p><label for="email">email</label>
+                    <input id="email" type="email" name="email" placeholder="mail@mail.ru"></p>
+                </div>
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>Пол</legend>
+                <div>
+                    <input type="radio" id="men"  name="men" value="men">
+                    <label for="men">М</label>
+                    <input type="radio" id="women" name="women" value="women">
+                    <label for="women">Ж</label>
+                </div>      
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>Хобби</legend>
+            <div>
+                <input type="checkbox" id="v1" name="v1" value="v1">
+                <label for="v1">Рисование</label>
+                <input type="checkbox" id="v2" name="v2" value="v2">
+                <label for="v2">Чтение</label>
+                <input type="checkbox" id="v3" name="v3" value="v3">
+                <label for="v3">Вязание</label>
+                <input type="checkbox" id="v4" name="v4" value="v1">
+                <label for="v4">Кулинария</label>
+            </div>
+            <div>
+                <button>Отправить</button>
+                <button>Очистить</button>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
